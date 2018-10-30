@@ -16,22 +16,10 @@ public class Example1 {//плохое имя но в учебных целях �
 
     private static double findMaxNum(double a, double b, double c, double d) {
         return findMaxNum(findMaxNum(a, b), findMaxNum(c, d));
-//        if (a >= b && a >= c && a >= d) {
-//            return a;
-//        }
-//        if (b >= a && b >= c && b >= d) {
-//            return b;
-//        }
-//        if (c >= a && c >= b && c >= d) {
-//            return c;
-//        }
-//
-//        return d;
+
     }
-//такой метод уже реализирован Math.max()
+
     private static double findMaxNum(double a, double b) {//overloading how to use it
         return a > b ? a : b;
     }
-
-
 }
